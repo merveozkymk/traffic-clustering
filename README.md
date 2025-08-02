@@ -18,11 +18,19 @@ Bu projede, İstanbul'daki trafik yoğunluğu verileri kullanılarak KMeans algo
 - sklearn
 - folium
 
+## Veri Seti
+
+Projedeki trafik yoğunluğu verisi, T.C. Çevre, Şehircilik ve İklim Değişikliği Bakanlığı'nın sağladığı **resmi açık veri** platformundan alınmıştır.
+
+🔗 [2025 Trafik Yoğunluğu Veri Seti](https://ulasav.csb.gov.tr/dataset/34-hourly-traffic-density-data-set/resource/70ecde5b-95ff-4168-b650-d726923408e8)
+
+Veriyi indirip `traffic_density_202501.csv` olarak kaydederek `main.py` ile aynı klasöre koymanız yeterlidir.
+
 ## Çalıştırmak İçin
 
 ```bash
 pip install -r requirements.txt
 python main.py
 ```
-Not: Çalıştırdıktan sonra trafik_kumeleme_haritasi.html dosyasını açarak kümeleme sonucunu harita üzerinde görebilirsiniz.
+Çalıştırma sonrası `trafik_kumeleme_haritasi.html` dosyası oluşur. Bu dosya tarayıcıda açılarak kümelerin harita üzerindeki dağılımı incelenebilir.
 
